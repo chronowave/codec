@@ -1,0 +1,59 @@
+{
+  "trace_id": "BBB",
+  "span_id": "AAAAAAAACxE=",
+  "references": null,
+  "flags": 0,
+  "start_time": "2022-12-16T11:23:09.387446612-05:00",
+  "duration": 20283,
+  "tags": [
+    {
+      "key": "key_str",
+      "v_str": "key_string"
+    },
+    {
+      "key": "key_bool",
+      "v_type": 1,
+      "v_bool": true
+    },
+    {
+      "key": "key_int",
+      "v_type": 4,
+      "v_int64": -22
+    },
+    {
+      "key": "key_float",
+      "v_type": 3,
+      "v_float64": -2
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "1989-12-31T19:00:00.025-05:00",
+      "fields": [
+        {
+          "key": "log_key_float",
+          "v_type": 4,
+          "v_float64": 19.3
+        },
+        {
+          "key": "log_key_str",
+          "v_str": "log_value_str"
+        }
+      ]
+    },
+    {
+      "timestamp": "1989-12-31T19:00:00.625-05:00",
+      "fields": [
+        {
+          "key": "log_key_float",
+          "v_type": 3,
+          "v_float64": 39.3
+        },
+        {
+          "key": "log_key_str",
+          "v_str": "log_value_str"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "field1": 255,
+  "field2": 19,
+  "field3": {
+    "field1": 3,
+    "field2": 21
+  },
+  "field4": [
+    {
+      "field1": 10,
+      "field2": 61,
+      "field3": "text1"
+    },
+    {
+      "field1": 15,
+      "field2": 81,
+      "field3": "text111"
+    }
+  ],
+  "field5": [
+    8,
+    4,
+    3
+  ]
+}
+{
+  "field1": 225,
+  "field2": 18,
+  "field3": {
+    "field1": 6,
+    "field2": 26,
+    "field3": true
+  },
+  "field4": [
+    {
+      "field1": 17,
+      "field2": 6138,
+      "field3": "text2"
+    },
+    {
+      "field1": null,
+      "field2": 6138,
+      "field3": null,
+      "field4": "2013-08-19T22:56:01,234"
+    }
+  ],
+  "field5": [
+    7,
+    5,
+    4
+  ]
+}
+{
+  "field1": 225,
+  "field2": 18,
+  "field3": {
+    "field1": 6,
+    "field2": 26
+  },
+  "field4": [
+    {
+      "field1": 17,
+      "field2": 6138,
+      "field3": "text3"
+    },
+    {
+      "field1": null,
+      "field2": 6138,
+      "field3": null,
+      "field4": "2013-08-19T22:56:01,234"
+    }
+  ],
+  "field5": [
+    7,
+    5,
+    4
+  ]
+}
+{
+  "field1": 225,
+  "field2": 18,
+  "field3": {
+    "field0": -1,
+    "field1": 6,
+    "field2": 26
+  },
+  "field4": [
+    {
+      "field1": 17,
+      "field2": 6138,
+      "field3": "text4"
+    },
+    {
+      "field1": null,
+      "field2": 6138,
+      "field3": null,
+      "field4": "2013-08-19T22:56:01,234"
+    }
+  ],
+  "field5": [
+    7,
+    5,
+    4
+  ]
+}
+{
+  "field1": 225,
+  "field2": 18,
+  "field3": {
+    "field1": 6,
+    "field2": 26
+  },
+  "field4": [
+    {
+      "field1": 17,
+      "field2": 6138,
+      "field3": "text5"
+    },
+    {
+      "field1": null,
+      "field2": 6138,
+      "field3": null,
+      "field4": "2013-08-19T22:56:01,234"
+    }
+  ],
+  "field5": [
+    7,
+    5,
+    4
+  ]
+}

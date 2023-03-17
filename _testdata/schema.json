@@ -1,0 +1,76 @@
+{
+  "fields": [
+    {
+      "name": "field1",
+      "type": "UINT8"
+    },
+    {
+      "name": "field2",
+      "type": "FLT64"
+    },
+    {
+      "children": [
+        {
+          "name": "field0",
+          "type": "INT8"
+        },
+        {
+          "name": "field1",
+          "type": "UINT8"
+        },
+        {
+          "name": "field2",
+          "type": "FLT64"
+        },
+        {
+          "name": "field3",
+          "type": "BOOL"
+        }
+      ],
+      "name": "field3",
+      "type": "SOO"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "field1",
+              "type": "UINT8"
+            },
+            {
+              "name": "field2",
+              "type": "FLT64"
+            },
+            {
+              "name": "field3",
+              "type": "TEXT"
+            },
+            {
+              "name": "field4",
+              "type": "DATE64",
+              "metadata": [
+                {
+                  "key": "LAYOUT",
+                  "value": "2006-01-02T15:04:05,000"
+                }
+              ]
+            }
+          ],
+          "type": "SOO"
+        }
+      ],
+      "name": "field4",
+      "type": "SOA"
+    },
+    {
+      "children": [
+        {
+          "type": "UINT8"
+        }
+      ],
+      "name": "field5",
+      "type": "SOA"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "/;codec";
+option java_package = "io.chronowave.codec";
+
+message FlightSchemaRequest {
+  string flight = 1;
+  bytes schema = 2;
+}
+
+message PutResult {
+  repeated uint64 seq = 1;
+  repeated string error = 2;
+}
+
+enum FlightServiceAction {
+  CreateFlight = 0;
+  DeleteFlight = 1;
+  UpdateSchema = 2;
+  UpdateFile = 3;
+  UploadFile = 4;
+}
+
+message FileTransferRequest {
+  string flight = 1;
+  uint64 id = 2;
+  uint32 replica = 3;
+  bytes data = 4;
+}
